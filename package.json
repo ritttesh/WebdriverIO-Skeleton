@@ -1,7 +1,6 @@
 {
   "name": "webdriverio2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "./test/spec/sample.*.js",
@@ -19,5 +18,9 @@
     "chromedriver": "^116.0.0",
     "selenium-standalone": "^9.1.1",
     "wdio-chromedriver-service": "^8.1.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
 }
